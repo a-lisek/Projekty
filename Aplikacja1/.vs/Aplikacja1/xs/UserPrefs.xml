@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{4EAEA33D-40C3-48A6-A461-52200DBC96A9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Aplikacja1/Program.cs">
+    <Files>
+      <File FileName="Aplikacja1/Program.cs" Line="14" Column="1" IsPinned="True" />
+      <File FileName="Aplikacja1/Zadanie1.cs" Line="6" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Aplikacja1" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="Aplikacja1" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.Aplikacja1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
