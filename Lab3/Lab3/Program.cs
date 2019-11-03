@@ -10,6 +10,72 @@ namespace Lab3
     {
         public static void Main(string[] args)
         {
+            // Zadanie 1
+            int rad = 4;
+            Console.WriteLine("Podaj wpolrzedne x [enter] y [enter]");
+            Point2D p1 = new Point2D(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+
+            Console.WriteLine("Podaj wpolrzedne x [enter] y [enter]");
+            Point2D p2 = new Point2D(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+
+            Console.WriteLine("Podaj wpolrzedne x [enter] y [enter]");
+            Point2D p3 = new Point2D(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+
+            Console.WriteLine("Podaj wpolrzedne x [enter] y [enter]");
+            Point2D p4 = new Point2D(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+
+            double distance = 100;
+            while (distance >= rad)
+            {
+                Console.WriteLine("Podaj wpolrzedne x [enter] y [enter]");
+                Point2D p5 = new Point2D(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+
+                double d1 = p1.Dist(p5);
+                double d2 = p2.Dist(p5);
+                double d3 = p3.Dist(p5);
+                double d4 = p4.Dist(p5);
+
+        
+                if ( d1 < rad || d2 <rad || d3 <rad || d4 < rad)
+                {
+                    if (d1 > d2)
+                    {
+                        d1 = d2;
+                    }
+                    if (d1 > d3)
+                    {
+                        d1 = d3;
+                    }
+                    if (d1 > d4)
+                    {
+                        d1 = d4;
+                    }
+                    distance = d1;
+                    Console.WriteLine("Punkt znajduje sie w okregu");
+                    p1.Print2DPoint();
+                    p2.Print2DPoint();
+                    p3.Print2DPoint();
+                    p4.Print2DPoint();
+                    p5.Print2DPoint();
+                }
+                else{
+                    if (d1 > d2)
+                    {
+                        d1 = d2;
+                    }
+                    if (d1 > d3)
+                    {
+                        d1 = d3;
+                    }
+                    if (d1 > d4)
+                    {
+                        d1 = d4;
+                    }
+                    distance = d1;
+                    Console.WriteLine("Odleglosc to {0}",distance);
+                }
+
+            }
 
             // Zadanie 3
             string znak = "0";
@@ -168,6 +234,38 @@ namespace Lab3
             x = p1;
             y = p2;
 
+        }
+    }
+    public struct Point2D
+    {
+        public int x, y;
+        public Point2D(int p1, int p2)
+        {
+            x = p1;
+            y = p2;
+
+        }
+        public void Reset()
+        {
+            x = 0;
+            y = 0;
+        }
+        public void IncrX(int dx)
+        {
+            x = x+dx;
+        }
+        public void IncrY(int dy)
+        {
+            y = y + dy;
+        }
+        public void Print2DPoint()
+        {
+            Console.WriteLine("Punkt ma wspolrzedne {0},{1}", x, y);
+        }
+        public double Dist(Point2D p)
+        {
+            double distance = Math.Sqrt(Math.Pow(p.x - this.x, 2) + Math.Pow(p.y - this.y, 2));
+            return distance;
         }
     }
     public class Punkt
