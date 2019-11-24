@@ -6,6 +6,30 @@ namespace Lab5
     {
         public static void Main(string[] args)
         {
+            // Zadanie 9
+            Console.WriteLine("Zadanie9");
+            Zadanie9 Z9 = new Zadanie9();
+            Z9.Wyw9();
+            Console.WriteLine(" ");
+
+            // Zadanie 8
+            Console.WriteLine("Zadanie8");
+            Zadanie8 Z8 = new Zadanie8();
+            Z8.Wyw8();
+            Console.WriteLine(" ");
+
+            // Zadanie 7
+            Console.WriteLine("Zadanie7");
+            Zadanie7 Z7 = new Zadanie7();
+            Z7.Wyw7();
+            Console.WriteLine(" ");
+
+            // Zadanie 6
+            Console.WriteLine("Zadanie6");
+            Zadanie6 Z6 = new Zadanie6();
+            Z6.Wyw6();
+            Console.WriteLine(" ");
+
             //Zadanie 5
             Console.WriteLine("Zadanie5");
             Zadanie5 Z5 = new Zadanie5();
