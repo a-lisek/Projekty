@@ -1,0 +1,5 @@
+/Users/annawrona/Projects/Lab7/Lab7/bin/Debug/Lab7.exe
+/Users/annawrona/Projects/Lab7/Lab7/bin/Debug/Lab7.pdb
+/Users/annawrona/Projects/Lab7/Lab7/obj/Debug/Lab7.csprojAssemblyReference.cache
+/Users/annawrona/Projects/Lab7/Lab7/obj/Debug/Lab7.exe
+/Users/annawrona/Projects/Lab7/Lab7/obj/Debug/Lab7.pdb

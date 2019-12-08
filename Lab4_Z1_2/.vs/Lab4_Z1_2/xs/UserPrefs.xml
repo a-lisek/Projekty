@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{3D7F4B94-1240-4042-A01E-2E20BCF13422}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab4_Z1_2/Zadanie2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab4_Z1_2/Program.cs">
     <Files>
       <File FileName="Lab4_Z1_2/Program.cs" Line="14" Column="1" />
-      <File FileName="Lab4_Z1_2/Zadanie2.cs" Line="23" Column="22" />
+      <File FileName="Lab4_Z1_2/Zadanie2.cs" Line="26" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Lab4_Z1_2" expanded="True">
             <Node name="Lab4_Z1_2" expanded="True">
-              <Node name="Zadanie2.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
