@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choinka", "Choinka\Choinka.csproj", "{3C2D5CA8-5EE4-4EC1-87CE-F9EE8DEAA144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C2D5CA8-5EE4-4EC1-87CE-F9EE8DEAA144}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{3C2D5CA8-5EE4-4EC1-87CE-F9EE8DEAA144}.Debug|anycpu.Build.0 = Debug|anycpu
+		{3C2D5CA8-5EE4-4EC1-87CE-F9EE8DEAA144}.Release|anycpu.ActiveCfg = Release|anycpu
+		{3C2D5CA8-5EE4-4EC1-87CE-F9EE8DEAA144}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal

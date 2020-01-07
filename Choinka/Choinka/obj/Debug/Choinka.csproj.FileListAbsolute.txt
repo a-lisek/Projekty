@@ -1,0 +1,5 @@
+/Users/annawrona/Projects/Choinka/Choinka/bin/Debug/Choinka.exe
+/Users/annawrona/Projects/Choinka/Choinka/bin/Debug/Choinka.pdb
+/Users/annawrona/Projects/Choinka/Choinka/obj/Debug/Choinka.csprojAssemblyReference.cache
+/Users/annawrona/Projects/Choinka/Choinka/obj/Debug/Choinka.exe
+/Users/annawrona/Projects/Choinka/Choinka/obj/Debug/Choinka.pdb

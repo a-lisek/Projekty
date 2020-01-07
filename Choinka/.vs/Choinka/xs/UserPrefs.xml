@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{3C2D5CA8-5EE4-4EC1-87CE-F9EE8DEAA144}|Default">
+  <MonoDevelop.Ide.ItemProperties.Choinka PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Choinka/Program.cs">
+    <Files>
+      <File FileName="Choinka/Program.cs" Line="63" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Choinka" expanded="True">
+            <Node name="Choinka" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
